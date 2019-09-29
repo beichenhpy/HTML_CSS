@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>表单</title>
+</head>
+<body>
+    <form>
+        <input type="text" value="自动填充"> 
+        <br/>
+        <input type="text" placeholder="不占位自动填充">
+        <br/>
+        <input type="text" placehoder="限制最大长度为8"  maxlength="8">
+        <br/>
+        <input type="text" placeholder="大小为50" size="50">
+        <br/>
+        <input type="text" value="只读" readonly>
+        <br/>
+        <input type="password" placeholder="密码">
+        <br/>
+        <textarea rows="20" cols="40">文本测试6666666666666666666666666666666</textarea>
+        <br/>
+        <input type="button" value="按钮">
+        <button>第二种button表示方式 <strong>(js合作作为绑定事件)</strong></button>js合作作为绑定事件
+        <input type="submit" value="提交"> <!-- 提交到服务器 -->
+        <br/>
+        数字滑动
+        <input type="range" min="10" max="100" step="20" value="100"> <!--value是起始值是多少 step是每次能调整的数值-->
+        <br/>
+        手动输入数字
+        <input type="number" min="-10" max="200" value="20" step="10">
+        <br/>
+        checkbox类型
+        <br/>
+        <input type="checkbox">选择 
+        <br/>
+        单选
+        <input type="radio" name="1" checked>选择1
+        <input type="radio" name="1">选择2
+        <input type="radio" name="1">选择3
+        <br/>
+        最受欢迎的编程语言(select)
+        <select>
+            <option>C语言</option>
+            <option>汇编语言</option>
+            <option>java</option>
+        </select>
+        <br/>
+        最受欢迎的编程语言(datalist)
+        <input type="text" list="datalist">
+        <datalist id="datalist">
+                <option>C语言</option>
+                <option>汇编语言</option>
+                <option>java</option>
+        </datalist>
+        <br/>
+        验证
+        <br/>
+        邮件<input type="email">
+        电话<input type="tel">
+        链接<input type="url">
+        <br/>
+        时间
+        <input type="date">
+        <br/>
+        颜色
+        <input type="color">
+        <br/>
+        搜索框
+        <input type="search">
+        <br/> 
+        <!-- 生成隐藏数据项 提交表单时依旧存在
+        <input type="hidden" value="隐藏的内容"> -->
+        <input type="image" src="C:\Users\beich\Desktop\12435242L-0.jpg" width="200px">
+        <br/>
+        上传文件
+        <br/>
+        <input type="file">
+        <br/>
+    </form>
+</body>
+</html>

@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    display: block;
+}
+header
+{
+    background-color:rgb(39, 39, 39);
+    width: 1920px;
+    height: 60px;
+}
+.wrap{
+    width: 1130px;
+    margin: 0 auto;
+}
+.container{
+    position: relative;
+    width: 670px;
+    height:60px;
+    background-color:rgb(39, 39, 39);
+}
+.img{
+    float: left;
+    width: 100px;
+    height: 60px;
+}
+.ullist {
+    white-space: nowrap;
+    position: absolute;
+ 
+}
+.ullist li{
+     list-style-type: none;
+     font-size: 30px;
+     display: inline-block;
+     overflow: hidden;
+     background-color: rgb(39, 39, 39);
+ }
+
+.ullist li a{ 
+    text-decoration: none;
+    text-align: center;
+    padding: 0px 10px;
+    color: rgb(95, 92, 92);
+}
+ #login{
+     padding-left: 200px;
+ }
+.ullist li a:hover{
+    background-color: black;
+}
+.search{
+    position: absolute;
+    top:25px;
+    left: 955px;
+}

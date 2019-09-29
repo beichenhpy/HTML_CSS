@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>过渡动画</title>
+    <style>
+        p{
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+        }
+        p:hover{
+            width: 200px;
+            height: 100px;
+            background-color: blueviolet;
+            transition-delay: 150ms;
+            transition-duration: 1000ms;
+            /* -webkit-transition-duration: 500ms;/*谷歌内核 */
+            transition-timing-function: ease;
+            /* transition-timing-function: linear;/*慢慢出现 */
+            /* transition-timing-function: ease-in-out;/*先慢再快再慢 */
+            /* transition-timing-function: ease-out;/*从快到慢 */
+            /* transition-timing-function: ease-in;/*从慢到快 */
+            /* transition-property: background-color;/*设置谁谁是延迟变化 */
+        }
+    </style>
+</head>
+<body>
+    <p></p>
+</body>
+</html>

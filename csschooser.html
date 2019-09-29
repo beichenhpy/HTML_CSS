@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css选择器</title>
+    <style type="text/css">
+    /* *{
+        font-size: 40px;
+        color: aqua;
+    } 全部 */
+    .class1{
+        font-size: 50px;
+        color: bisque;
+    }
+     #id1{
+        font-size: 100px;
+        color: blueviolet;
+    }
+    [href="http://www.baidu.com"]{
+        font-size: 25px;
+        color: #66ccff;
+    }
+    a:hover{
+        color: antiquewhite;
+    }
+    </style>
+</head>
+<body>
+    <a class="class1">test1</a>   <!--class全局属性 不具有唯一性-->
+    <br/>
+    <a href="http://www.baidu.com">百度一下，你就知道</a> <!--属性选择器-->
+    <br/>
+    <a href="http://www.taobao.com">淘宝</a>
+    <br/>
+    <p id="id1" class="class1">text2</p>  <!--id是全局属性 具有唯一性 id优先级大于class--> 
+    <h1>text3</h1>
+</body>
+</html>
